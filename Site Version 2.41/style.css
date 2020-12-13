@@ -1,0 +1,383 @@
+.backgradient{
+	display: flex;
+	flex-direction: column;
+/* 	align-items: center; */
+	/* height: 4000px; */
+	width: 100vw;
+	background: url("img/background.png") no-repeat;				/* hover */
+	background-position: top center;
+	flex-shrink: 1;
+}
+
+.divflex1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 526px;
+	/* min-width: 100px; */
+	background: url("img/CrowdEDITEDperf.png") no-repeat;
+	background-position: top center;
+    /* width: 100%; */
+	flex-shrink: 1;
+}
+.divflex2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+/*	max-width: 1686px;*/
+	min-height: 948px;
+	/* min-width: 100px; */
+	background: url("img/Layer_3.png") no-repeat;
+	background-position: center center;
+	flex-shrink: 1;
+ 	margin-bottom: 103px; /* 43 - basemargin */
+	margin-top: 17px;
+}
+.divflex3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+/*	max-width: 1686px;*/
+	max-height: 1050px;
+	/* min-width: 100px; */
+	flex-shrink: 1;
+ 	margin-top: -136px;
+/*	margin-bottom: -240px; */
+}
+
+.textsized{
+	display: flex;
+	flex-direction: column;
+	max-width: 1686px;
+	flex-shrink: 1;
+}
+
+.iconmain{
+	height: 226px;
+	width: 401px;
+	/* transform: scale(0.2); */
+	align-self: center;
+	margin-top: 20px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 100;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+body {
+    display: flex;
+	flex-shrink: 1;
+    margin: 0;
+	overflow-x: hidden; /* Hide scrollbars */
+}
+
+.textmain {
+	position: relative;
+	font-family: 'Trend Sans Four';
+	font-size: 68pt;
+ 	text-align: center;
+	margin-top: 3px;
+	z-index: 3;
+}
+
+.rectangle {
+	position: relative;
+	/*display: flex;*/
+	border-radius: 37px;
+	background: #ffffff;
+	width: 172px;
+	height: 88px;
+	/*align-self: flex-end;*/
+	bottom: 72px;
+	right: -122px;
+	z-index: 1;
+}
+
+.circle {
+	position: relative;
+	background-color: green;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	bottom: 146px;
+	right: -88px;
+	z-index: 2;
+}
+
+.stripe{
+	position: relative;
+	/* border-radius: 37px; */
+	background: #ffffff;
+	width: 100vw;
+	height: 40px;
+	align-self: flex-end;
+	bottom: 43px;
+}
+
+.navbar-nav {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 24px;
+	background: rgba(255, 255, 255, 0.4);
+	/*width: 731px;*/
+/*	height: 47px;
+	bottom: 84px;*/
+	/*opacity: 0.2;*/
+}
+
+.navbar-nav-mobile {
+	display: none;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 24px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-nav li {
+	margin: 0 16px;
+}
+
+.navbar-nav-mobile li {
+	margin: 0 16px;
+}
+
+.nav-item{
+	text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Myriad Pro';
+	/* font-weight: bold; */
+	font-size: 18pt;
+	/* opacity: 1; */
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+nav{
+	display: flex;
+	position: relative;
+	height: 47px;
+	bottom: 84px;
+	min-height: 78px;
+}
+
+.text-join{
+	position: relative;
+	font-family: 'Trend Sans Four';
+	font-size: 45pt;
+ 	text-align: center;
+	margin-top: 197px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.join{
+	/* display: flex; */
+	position: relative;
+	border-radius: 30px;
+	border-color: #ffffff;
+	background: #59188e;
+	width: 287px;
+	height: 94px;
+	/*align-self: flex-end;*/
+	margin-top: 50px;
+	opacity: 0.8;
+}
+
+.textbuttonjoin{
+	font-family: 'Trend Sans Four';
+	font-size: 27pt;
+ 	text-align: center;
+	margin-block-start: 0;
+    margin-block-end: 10px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.aboutrect{
+	position: relative;
+	/*display: flex;*/
+	border-radius: 2px;
+	background: rgba(255, 255, 255, 0.4);
+	min-width: 932px;
+	min-height: 488px;
+	/*align-self: flex-end;*/
+	bottom: 500px;
+	/* top: 70px; */
+	right: -164px;
+}
+.piano{
+	position: relative;
+	width: 477px;
+	height: 715px;
+	top: 156px;
+	right: 356px;
+	z-index: 3;
+	
+}
+.abouthead {
+	position: relative;
+	font-family: 'Trend Sans Four';
+	font-size: 45pt;
+	font-weight: 100;
+ 	text-align: center;
+	margin-top: 3px;
+}
+.aboutinfo{
+	position: relative;
+	font-family: 'Myriad Pro';
+	font-size: 26pt;
+	max-width: 657px;
+	max-height: 82px;
+	right: -212px;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-self: center;
+	justify-content: space-around;
+	position: relative;
+	background: rgb(114,39,175);
+	background: linear-gradient(0deg, rgba(114,39,175,1) 0%, rgba(114,39,175,0) 80%);
+	width: 412px;
+	height: 127px;
+}
+
+.footerico{
+	display: flex;
+	max-width: 70px;
+	max-height: 70px;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+	.aboutrect{
+		transform: scale(0.8);
+		min-width: 788px;
+	}
+	.piano{
+		right: 286px;
+		transform: scale(0.85);
+	}
+	.aboutinfo{
+		right: -108px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.navbar-nav {
+		display: none;
+	}
+	
+	.navbar-nav-mobile {
+		display: flex;
+		transform: scale(1.4);
+	}
+	
+	.divflex1{
+		max-height: 349px;
+	}
+	
+	.iconmain{
+		position: relative;
+		transform: scale(1.1);
+		top: 64px;
+		right: 222px;
+	}
+	
+	.textmain {
+		margin-top: 3px;
+		margin-left: 250px;
+		bottom: 92px;
+	}
+	
+	.rectangle {
+		transform: scale(1.3);
+		width: 142px;
+		bottom: 152px;
+		right: -254px;
+	}
+
+	.circle {
+		transform: scale(1.3);
+		width: 45px;
+		bottom: 202px;
+		right: -208px;
+	}
+	
+	.divflex2{
+		min-height: 500px;
+		max-width: 750px;
+		background: url("img/Layer_3-mobile.png") no-repeat;
+		margin-bottom: 103px; /* 43 - basemargin */
+		margin-top: 17px;
+	}
+	
+	.text-join{
+		font-size: 35pt;
+		text-align: center;
+		margin-top: 60px;
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	}
+	
+	.divflex3{
+		max-height: 800px;
+		margin-top: -136px;
+	}
+	
+	.piano{
+		width: 324px;
+		height: 486px;
+		right: 180px;
+	}
+	
+	.abouthead {
+		font-size: 38pt;
+		margin-left: 86px;
+	}
+	
+	.aboutinfo{
+		font-size: 22pt;
+		max-width: 300px;
+		max-height: 82px;
+		right: -128px;
+		bottom: 20px;
+	}
+	
+	.aboutrect{
+		position: relative;
+		min-width: 450px;
+		min-height: 440px;
+		bottom: 310px;
+		right: -104px;
+	}
+	
+	footer{
+		transform: scale(0.8);
+		top: 13px;
+	}
+}
+
+
+

@@ -1,0 +1,20 @@
+body { background-color: rgba(0,0,0,0); }
+#playlist{
+        list-style: none;
+}
+#playlist li a{
+	background: black;
+}
+#playlist .current-song a{
+	background: red;
+}
+.triangle {
+  border: none;
+  display: flex;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: black;
+  shape-margin: 10px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}

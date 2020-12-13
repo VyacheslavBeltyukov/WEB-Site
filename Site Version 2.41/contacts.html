@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="music, rock, juzz, pop" />
+	<meta name="description" content="The best music which you can search. Music special for you.">
+
+	<link rel="stylesheet" href="fonts/Trend/styles2.css">
+	<link rel="stylesheet" href="fonts/MyriadPro/stylesheet.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style-cont.css">
+	<link rel="shoutcut icon" href="Mainico.ico">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Cormorant+Garamond|Nosifer|Raleway&display=swap">
+</head>
+
+<body>
+		<div class="maindiv">
+			<div class="divflex1">
+				<img class="iconmain" src="Mainico.png" alt="Header">
+				<h1 class="textmain">Muson</h1>
+				<span class="rectangle"></span>
+				<span class="circle"></span>
+				<nav>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="html/music.html" class="nav-link">Music</a>
+						</li>
+						<li class="nav-item">
+							<a href="html/recomend.html" class="nav-link">Recommended</a>
+						</li>
+						<li class="nav-item">
+							<a href="html/contact.html" class="nav-link">Contact</a>
+						</li>
+					</ul> <!-- <ol></ol> - numeric -->
+
+					<ul class="navbar-nav-mobile">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="html/music.html" class="nav-link">Music</a>
+						</li>
+						<li class="nav-item">
+							<a href="html/recomend.html" class="nav-link">Recommended</a>
+						</li>
+					</ul>	
+				</nav>
+			</div>
+			
+			<span class="stripe"></span>
+			
+			<div class="stars">
+				<h2 class="textcont">Contact Us</h2>
+				<h2 class="textcont1">On this page you can support me or offer cooperation</h2>
+				
+				<div class="contactmenu">
+					<div class="continfo" id="box" onmousedown="changeBackground()" onmouseup="changeBackground2()">
+						<p class="shortabout1">Contacts with me</p>
+						<p class="shortabout2">Here you can send me your propositions, wishes or requests about content on this page</p>
+						<!-- <p class="shortabout2">Contacts with me</p>
+						<p class="shortabout2">Contacts with me</p>
+						<p class="shortabout2">Contacts with me</p> -->
+					</div>
+					<form class="input_menu" action="#" method="get">
+						<input placeholder="Name" type="text" id="name1" oninput="returnclass('name1','errmsg')" class="inbox1" value="" pattern="[a-zA-Z]+" required>
+						<p class="errormsg_hidden" id="errmsg">Error.The field is empty</p>
+						<input placeholder="Surname" type="text" id="name2" oninput="returnclass('name2','errmsg2')" class="inbox1" value="" pattern="[a-zA-Z]+" required>			<!-- https://css.in.ua/html/tag/select -->
+						<p class="errormsg_hidden" id="errmsg2">Error.The field is empty</p>
+						<input placeholder="E-mail" type="email" id="name3" oninput="returnclass('name3','errmsg3')" class="inbox1" value="" pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]" required>
+						<p class="errormsg_hidden" id="errmsg3">Error.The field is empty</p>
+						<input placeholder="Message" type="text" id="name4" oninput="returnclass('name4','errmsg4')" class="inbox2" value="" pattern="[a-zA-Z0-9]+" required>
+						<p class="errormsg_hidden" id="errmsg4">Error.The field is empty</p>
+						<input placeholder="Password" type="password" id="pass" oninput="returnclass('pass','errmsg5')" class="inbox1" value="" pattern="[a-zA-Z0-9]+" required>
+						<p class="errormsg_hidden" id="errmsg5">Error.The field is empty</p>
+						<button class="sendinput" type="submit" onclick="myFunction()">Send</button>
+					</form>
+					<button class="eye" onclick="showPass()">Eye</button>
+				</div>
+			</div>
+		</div>
+		
+<script>
+	function returnclass(name,msg){
+		if(name === 'name4'){
+			document.getElementById(name).classList.add('inbox2');
+			document.getElementById(name).classList.remove('inbox2err');
+			document.getElementById(msg).classList.add('errormsg_hidden');
+			document.getElementById(msg).classList.remove('errormsg');
+		}
+		else{
+			document.getElementById(name).classList.add('inbox1');
+			document.getElementById(name).classList.remove('inputerr');
+			document.getElementById(msg).classList.add('errormsg_hidden');
+			document.getElementById(msg).classList.remove('errormsg');		
+		}
+	}
+	
+	function myFunction(name){
+		if(document.getElementById("name1").value === '') {
+			document.getElementById("name1").classList.add('inputerr');
+			document.getElementById("name1").classList.remove('inbox1');
+			document.getElementById("errmsg").classList.add('errormsg');
+			document.getElementById("errmsg").classList.remove('errormsg_hidden');
+		}
+		if(document.getElementById("name2").value === '') {
+			document.getElementById("name2").classList.add('inputerr');
+			document.getElementById("name2").classList.remove('inbox1');
+			document.getElementById("errmsg2").classList.add('errormsg');
+			document.getElementById("errmsg2").classList.remove('errormsg_hidden');
+		}
+		if(document.getElementById("name3").value === '') {
+			document.getElementById("name3").classList.add('inputerr');
+			document.getElementById("name3").classList.remove('inbox1');
+			document.getElementById("errmsg3").classList.add('errormsg');
+			document.getElementById("errmsg3").classList.remove('errormsg_hidden');
+		}
+		if(document.getElementById("name4").value === '') {
+			document.getElementById("name4").classList.add('inbox2err');
+			document.getElementById("name4").classList.remove('inbox2');
+			document.getElementById("errmsg4").classList.add('errormsg');
+			document.getElementById("errmsg4").classList.remove('errormsg_hidden');
+		}
+	}
+	
+	function showPass(){
+		var input = document.getElementById('pass');
+		if(input.type === 'password'){
+			document.getElementById('pass').type = 'text';
+		}
+		else{
+			document.getElementById('pass').type = 'password';
+		}
+	}
+	
+	function changeBackground() {
+		document.getElementById("box").classList.remove('continfo');
+		document.getElementById("box").classList.add('continfo2');
+	}
+	
+	function changeBackground2() {
+		document.getElementById("box").classList.remove('continfo2');
+		document.getElementById("box").classList.add('continfo');
+	}
+</script>
+
+</body>
+</html>

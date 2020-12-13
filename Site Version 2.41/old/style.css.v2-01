@@ -1,0 +1,223 @@
+.backgradient{
+	display: flex;
+	flex-direction: column;
+/* 	align-items: center; */
+	height: 4000px;
+	width: 1920px;
+	background: url("img/background.png") no-repeat;
+	flex-shrink: 1;
+}
+.divflex1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 536px;
+	/* min-width: 100px; */
+	background: url("img/CrowdEDITEDperf.png") no-repeat;
+    /* width: 100%; */
+	flex-shrink: 1;
+	/* margin: -10px; */
+}
+.divflex2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1686px;
+	min-height: 948px;
+	/* min-width: 100px; */
+	background: url("img/Layer_3.png") no-repeat;
+    /* width: 100%; */
+	flex-shrink: 1;
+	margin-left: 118px;
+}
+.iconmain{
+	height: 226px;
+	width: 401px;
+	/* transform: scale(0.2); */
+	margin-top: 20px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 100;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+body {
+    display: flex;
+	flex-shrink: 1;
+    margin: 0;
+}
+
+.textmain {
+	position: relative;
+	font-family: 'Trend Sans Four';
+	font-size: 68pt;
+ 	text-align: center;
+	margin-top: 3px;
+	z-index: 3;
+}
+
+.rectangle {
+	position: relative;
+	/*display: flex;*/
+	border-radius: 37px;
+	background: #ffffff;
+	width: 172px;
+	height: 88px;
+	/*align-self: flex-end;*/
+	bottom: 72px;
+	right: -122px;
+	z-index: 1;
+}
+
+.circle {
+	position: relative;
+	background-color: green;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	bottom: 146px;
+	right: -88px;
+	z-index: 2;
+}
+
+.stripe{
+	position: relative;
+	/* border-radius: 37px; */
+	background: #ffffff;
+	width: 1920px;
+	height: 40px;
+	align-self: flex-end;
+	bottom: 43px;
+}
+
+.navbar-nav{
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 24px;
+	background: #d6d6d6;
+	width: 731px;
+	height: 47px;
+	bottom: 84px;
+	opacity: 0.60;
+}
+
+.nav-item{
+	text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Myriad Pro';
+	/* font-weight: bold; */
+	font-size: 18pt;
+	/* opacity: 1; */
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.text-join{
+	position: relative;
+	font-family: 'Trend Sans Four';
+	font-size: 45pt;
+ 	text-align: center;
+	margin-top: 197px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.join{
+	/* display: flex; */
+	position: relative;
+	border-radius: 30px;
+	border-color: #ffffff;
+	background: #59188e;
+	width: 287px;
+	height: 94px;
+	/*align-self: flex-end;*/
+	margin-top: 50px;
+	opacity: 0.8;
+}
+
+.textbuttonjoin{
+	font-family: 'Trend Sans Four';
+	font-size: 27pt;
+ 	text-align: center;
+	margin-block-start: 0;
+    margin-block-end: 10px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+/* ########################################################################################################################################################## */
+/* ########################################################################################################################################################## */
+/* ########################################################################################################################################################## */
+/* ########################################################################################################################################################## */
+/* font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace; */
+
+.icon{
+	
+}
+.about{
+	font-family: 'Raleway';
+	font-size: 160%;
+	text-align: center;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.slider{
+	width: 60%;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+.audio {
+	background-color: #f1f3f4;
+}
+.audio_l {
+	background-color: #f1f3f4;
+	width: 95%;
+}
+.audio_c {
+	background-color: #f1f3f4;
+	position: absolute;
+	top: 15px;
+	width: 90%;
+}
+.Gradient {
+background: url(img/gradient.jpg) no-repeat center top;
+margin-top: 0px;
+padding-top: 2px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+/*background-attachment: fixed;*/
+background-position: center center;
+min-height: 590px;
+width: 100%;
+
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
